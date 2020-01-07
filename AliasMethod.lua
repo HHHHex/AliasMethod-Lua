@@ -76,7 +76,6 @@ function AliasMethod.randomFromItems(items)
 		print("-  ----      ----------")
 	end
 
-	
 	local index = math.random(1, #alias)
 	local rate = math.random(1000) * 0.001
 	print("alias count: " ..count .. " random index: " ..index .." rate: " ..rate)
@@ -94,6 +93,5 @@ function AliasMethod.randomFromItems(items)
 
 	return result.id
 end
-
 
 return AliasMethod
