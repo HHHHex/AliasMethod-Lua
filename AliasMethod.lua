@@ -53,7 +53,7 @@ function AliasMethod.randomFromItems(items)
 			table.insert(smallers, rest)
 		end
 	end
-	-- handle reset items
+	-- handle rest items
 	while #smallers ~= 0 do
 		local small = smallers[1]
 		table.remove(smallers, 1)
